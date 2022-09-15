@@ -1,0 +1,29 @@
+/* codepen.io/enxaneta/full/adlpwv.com */
+
+.container{
+    background-color: deeppink;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /*eje principal (horizontal)*/
+    justify-content: space-around;
+
+    /*eje secundario (vertical)*/
+    align-items: center;
+
+    /* flex-direction: column; */
+
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: lightskyblue;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+
+.item2{
+    align-self: stretch;
+}

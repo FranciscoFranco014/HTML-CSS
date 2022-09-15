@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hover{
+    width: 300px;
+    height: 100px;
+    background-color: darkseagreen;
+}
+
+.hover:hover{
+    background-color: bisque;
+}
+
+.list{
+    padding: 15px;
+    background-color: lightblue;
+}
+.list p:first-child{
+    color: whitesmoke;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: pink;
+}

@@ -1,0 +1,95 @@
+
+<!--Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este documento HTML
+
+Crea tres secciones
+
+En la primera sección crea un Jumbotron replicando el que realizamos en el vídeo
+
+El botón de llamada a la acción debe abrir una ventana modal
+
+En la segunda sección crea un formulario de contacto con los campos "nombre" (text), "teléfono" (number) y mensaje (textarea)
+
+En la tercera sección crea una tarjeta con tu perfil de desarrollador/a que contenga lo siguiente
+
+Tu nombre en el título
+
+Una breve descripción
+
+Tu email en el footer  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="alerts.css">
+    <title>Elementos de interes en Bootstrap</title>
+</head>
+<body>
+    <div class="container py-4">
+        <section class="jumbotron">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Custom Jumbotron</h1>
+                    <p class="col-m-8 fs-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nemo consequatur porro voluptatum repellat dolorum voluptate, nisi beatae? Saepe perspiciatis consequuntur minus numquam! Ipsa, exercitationem sed nobis maxime corporis eos?
+                    </p>
+                    <button 
+                            type="button"
+                            class="btn btn-primary btn-lg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#example-modal">
+                            Acept
+                    </button>
+                    <div class="modal" id="example-modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Hi! Im a Modal!</h5>
+                                    <button type="button" 
+                                            class="btn btn-close" 
+                                            data-bs-dismiss="modal" 
+                                            aria-label="close">
+                                    </button>
+
+                    </div>
+            </div>
+        </section>
+        <hr>
+        <div class="input-group">
+            <span class="input-group-text">Name</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <button type="submit" class="btn btn-info">Sumbit</button>
+        </div>
+        <hr>
+        <div class="input-group">
+            <span class="input-group-text">Number phone</span>
+            <input type="text" aria-label="Number phone" class="form-control">
+            <button type="submit" class="btn btn-danger">Sumbit</button>
+        </div>
+        <hr>
+        <div class="input-group">
+            <span class="input-group-text">Address</span>
+            <input type="text" aria-label="Address" class="form-control">
+            <button type="submit" class="btn btn-secondary">Sumbit</button>
+        </div>
+        <hr>
+        <div class="card text-center">
+            <div class="card-header">
+              Information Card
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Francisco Franco</h5>
+              <p class="card-text">Computer engineer student and front-end dev.</p>
+              <a href="#" class="btn btn-primary">Go to my space</a>
+            </div>
+            <div class="card-footer text-muted">
+              reifk14@gmail.com
+            </div>
+          </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>

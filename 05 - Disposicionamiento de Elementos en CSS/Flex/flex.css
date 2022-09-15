@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    background-color: bisque;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido1{
+    background-color: azure;
+    /* height: 200px; */
+    width: 150px;
+    border: 1px solid rgb(53, 50, 47);
+}
+
+.contenido2{
+    background-color: azure;
+    /* height: 200px; */
+    width: 150px;
+    border: 1px solid rgb(53, 50, 47);
+}
+
+.contenido3{
+    background-color: azure;
+    /* height: 200px; */
+    width: 150px;
+    border: 1px solid rgb(53, 50, 47);
+}
+
+/* codepen.io/enxaneta/full/adLPwv */

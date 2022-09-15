@@ -1,0 +1,37 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: lightsteelblue;
+    box-shadow: 0 0 10px black;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    
+}
+
+.padre:hover .hijo{
+    /* transform: translateX(100%); */
+    animation: traslacion 2s forwards;
+}
+
+@keyframes traslacion {
+    0%{
+        background-color: darkred;
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: coral;
+        transform: translateX(100%) 
+    }
+    50%{
+        background-color: greenyellow;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: greenyellow;
+        transform: translateY(100%); 
+    }
+}

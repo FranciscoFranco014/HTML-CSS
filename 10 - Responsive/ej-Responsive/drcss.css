@@ -1,0 +1,18 @@
+.section{
+    background-color: lightpink;
+    display: flex;
+    position: relative;
+    flex-grow: initial;
+}
+
+.sect-right{
+    position: absolute ;
+    right: 15px;
+}
+
+
+@media (min-width: 640px){
+    .sect-left{
+        flex-direction: row;
+    }
+}

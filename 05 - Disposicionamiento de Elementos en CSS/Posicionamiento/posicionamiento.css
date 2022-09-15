@@ -1,0 +1,16 @@
+div{
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative{
+    position:relative;
+    left: 10px;
+    right: 20px;
+}
+
+.fixed{
+    position: fixed;
+    
+}

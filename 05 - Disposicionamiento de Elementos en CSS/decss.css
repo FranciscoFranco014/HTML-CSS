@@ -1,0 +1,11 @@
+.galeriadefacu{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.galeriadefacu:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

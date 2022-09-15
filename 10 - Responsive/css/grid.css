@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    gap: 0.5rem;
+    /* column-gap: 0.1rem;
+    row-gap: 1rem ; */
+    /* grid-template-columns: auto auto auto ; */
+    /* grid-template-columns: repeat(4, auto); */
+    /* grid-template-columns: 20px 4rem 25vw; */
+    /* divide el grid en mas columnas, dependiendo que valores le pase 'fracciones' */
+    grid-template-columns: 1fr 1fr 3fr; 
+    grid-template-rows: 200px 5rem 100px;
+    /* grid-template-areas: 'head head head' 'main main aside' 'footer footer footer'; */
+
+}
+
+.item{
+    background-color: rgb(247, 144, 144);
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid 0.5px black;
+}
+
+.item1{
+    /* los numeros hacen referencia a que parte de la columna esta */
+    grid-column: 2 / span 2;
+    /* grid-column: 1 / 3; */
+    /* grid-area: head; */
+}
+
+.item9{
+    /* grid-area: footer; */
+
+    /* le decimos desde que fila queremos que empiece, desde fila 2 y col1  hasta fila 4 y col5*/
+    /* grid-area: fila inicio / colinicio / fila end / colend */
+    grid-area: 2/ 1 / 4 / 3;
+}
